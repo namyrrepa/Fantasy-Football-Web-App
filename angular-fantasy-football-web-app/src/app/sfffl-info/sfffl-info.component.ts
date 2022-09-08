@@ -3,12 +3,12 @@ import { sffflInfo } from '../sfffl-info'
 import { sffflTeam } from '../sfffl-team'
 
 @Component({
-  selector: 'app-sfffl',
-  templateUrl: './sfffl.component.html',
-  styleUrls: ['./sfffl.component.css']
+  selector: 'app-sfffl-info',
+  templateUrl: './sfffl-info.component.html',
+  styleUrls: ['./sfffl-info.component.css']
 })
 
-export class SffflComponent implements OnInit {
+export class SffflInfoComponent implements OnInit {
   pageTitle = 'Sunday Funday Fantasy Football League';
   teams: sffflTeam[] = [];
 

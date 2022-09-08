@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SffflComponent } from './sfffl.component';
+import { SffflInfoComponent } from './sfffl-info.component';
 
 describe('SffflComponent', () => {
-  let component: SffflComponent;
-  let fixture: ComponentFixture<SffflComponent>;
+  let component: SffflInfoComponent;
+  let fixture: ComponentFixture<SffflInfoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SffflComponent ]
+      declarations: [ SffflInfoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SffflComponent);
+    fixture = TestBed.createComponent(SffflInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

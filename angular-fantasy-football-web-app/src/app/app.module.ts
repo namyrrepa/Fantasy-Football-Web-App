@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ToolsComponent } from './tools/tools.component';
 import { NflTeamsComponent } from './nfl-teams/nfl-teams.component';
 import { NflDetailsComponent } from './nfl-details/nfl-details.component';
-import { SffflComponent } from './sfffl/sfffl.component';
+import { SffflComponent } from './sfffl-info/sfffl-info.component';
 
 @NgModule({
   declarations: [
